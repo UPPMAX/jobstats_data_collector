@@ -1,0 +1,16 @@
+backup/jobstats_archive/*
+!backup/jobstats_archive/placeholder
+
+dbs/collected_jobstats/backup/*
+!dbs/collected_jobstats/backup/placeholder
+
+dbs/*.sqlite
+dbs/*/*.sqlite
+
+testarea/
+utils/
+devproj/
+shm/
+
+*.pyc
+
